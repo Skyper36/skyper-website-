@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slyper Clothing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #000;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .banner {
+            width: 100%;
+            height: 50vh;
+            background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            font-size: 22px;
+        }
+        .product p {
+            font-size: 18px;
+            font-weight: bold;
+            color: #e63946;
+        }
+        .buy-now {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #e63946;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .buy-now:hover {
+            background: #b02732;
+        }
+        footer {
+            background: #000;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .socials a {
+            color: white;
+            font-size: 20px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>Slyper Clothing</header>
+    <section class="banner">New Collection - Shop Now</section>
+    <section class="products">
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Hoodie">
+            <h3>Hoodie</h3>
+            <p>$29.99</p>
+            <a href="https://wa.me/yourwhatsappnumber" class="buy-now">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="T-Shirt">
+            <h3>T-Shirt</h3>
+            <p>$19.99</p>
+            <a href="https://wa.me/yourwhatsappnumber" class="buy-now">Buy Now</a>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Jacket">
+            <h3>Jacket</h3>
+            <p>$49.99</p>
+            <a href="https://wa.me/yourwhatsappnumber" class="buy-now">Buy Now</a>
+        </div>
+    </section>
+    <footer>
+        Follow us on Instagram: <a href="https://instagram.com/slyperclothing" class="socials">@slyperclothing</a>
+    </footer>
+</body>
+</html>
